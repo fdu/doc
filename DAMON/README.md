@@ -5,7 +5,6 @@ This is an introduction to using DAMON, the kernel Data Access Monitor.
 ## Setup
 
 ### Kernel
-
 ```
 # Get the source
 mkdir src
@@ -30,7 +29,6 @@ sudo reboot
 ```
 
 ### User space
-
 ```
 # Perf
 make O=../build -C src/tools/perf/ -j`nproc`
@@ -39,9 +37,6 @@ make O=../build -C src/tools/perf/ -j`nproc` install
 sudo pip3 install damo
 ```
 
-
-
 ## Links
-
 - https://sjp38.github.io/post/damon/
 
